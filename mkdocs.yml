@@ -1,0 +1,19 @@
+site_name: My MkdocsProject test run
+theme:
+  name: material
+  features:
+    - search.suggest
+    - search.highlight
+    - search.tabs.link
+plugins:
+  - search
+
+
+nav:
+  - Introduction: "pages/index.md"
+  - Tutorial: 
+      - Tutorial Subsection: "pages/tutorial/tutorial_subsection.md"
+  - About: "pages/about.md"
+  - FAQ: "pages/faq.md" 
+
+    
